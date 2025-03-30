@@ -10,8 +10,6 @@ conn = mysql.connector.connect(
 )
 c = conn.cursor()
 
-# def SV(title):
-#     n = int(input("Enter number of persons (at least more than 2): "))
 def Name(title,n):
     i = 0
     if n < 2:
